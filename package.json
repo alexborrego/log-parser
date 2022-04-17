@@ -1,0 +1,22 @@
+{
+  "name": "log-parser",
+  "version": "1.0.0",
+  "description": "Parses access logs and outputs a readable CSV",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexborrego/log-parser.git"
+  },
+  "author": "Alex Borrego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexborrego/log-parser/issues"
+  },
+  "homepage": "https://github.com/alexborrego/log-parser#readme",
+  "dependencies": {
+    "outlawdesigns.io.accesslogparser": "^1.0.2"
+  }
+}
