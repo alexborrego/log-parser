@@ -18,6 +18,7 @@
   "homepage": "https://github.com/alexborrego/log-parser#readme",
   "dependencies": {
     "maxmind": "^4.3.6",
-    "outlawdesigns.io.accesslogparser": "^1.0.2"
+    "outlawdesigns.io.accesslogparser": "^1.0.2",
+    "ua-parser-js": "^1.0.2"
   }
 }
