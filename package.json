@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alexborrego/log-parser#readme",
   "dependencies": {
+    "json2csv": "^5.0.7",
     "maxmind": "^4.3.6",
     "outlawdesigns.io.accesslogparser": "^1.0.2",
     "ua-parser-js": "^1.0.2"
