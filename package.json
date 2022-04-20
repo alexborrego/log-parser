@@ -4,7 +4,7 @@
   "description": "Parses access logs and outputs a readable CSV",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "maxmind": "^4.3.6",
     "outlawdesigns.io.accesslogparser": "^1.0.2",
     "ua-parser-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
