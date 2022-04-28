@@ -1,7 +1,8 @@
 FROM node:alpine
-RUN mkdir /app
+#RUN mkdir /app
 WORKDIR /app
-COPY package.json /app
+COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install
-COPY . /app
-CMD ["npm", "start"]
+COPY . .
+#CMD ["npm", "start"]
+CMD node ./src/app.js
